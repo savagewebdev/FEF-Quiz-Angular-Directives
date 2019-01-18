@@ -9,7 +9,7 @@
 		<h2 id="brickColors">{{legoStore.brickColors}}</h2>
 		<ul id="colorList">
 			<li id="color-Red">Red
-				<i class="brick-1x1">Size: 1x1 Quantity: {{legoStore.brick.'1x1'.quantity}} Price: {{legoStore.brick.'1x1'.price}}</i>
+				<i class="brick-1x1">Size: 1x1 Quantity: {{legoStore.bricks.'1x1'.quantity}} Price: {{legoStore.bricks.'1x1'.price}}</i>
 <!-- 				<i class="brick-2x2">Size: 2x2 Quantity: {{legoStore.brick.'2x2'.quantity}} Price: {{legoStore.brick.'2x2'.price}}</i> -->
 <!-- 				<i class="brick-2x6">Size: 2x6 Quantity: {{Quantity}} Price: {{Price}}</i> -->
 <!-- 				<i class="brick-36x12">Size: 36x12 Quantity: {{Quantity}} Price: {{Price}}</i> -->
