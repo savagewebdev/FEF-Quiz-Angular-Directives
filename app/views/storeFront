@@ -10,19 +10,19 @@
 		<ul id="colorList">
 			<li id="color-Red">Red
 				<i class="brick-1x1">Size: 1x1 Quantity: {{legoStore.brick.'1x1'.quantity}} Price: {{legoStore.brick.'1x1'.price}}</i>
-				<i class="brick-2x2">Size: 2x2 Quantity: {{legoStore.brick.'2x2'.quantity}} Price: {{legoStore.brick.'2x2'.price}}</i>
-				<i class="brick-2x6">Size: 2x6 Quantity: {{Quantity}} Price: {{Price}}</i>
-				<i class="brick-36x12">Size: 36x12 Quantity: {{Quantity}} Price: {{Price}}</i>
-			</li>
-			<li id="color-Blue">Blue
-				<i class="brick-2x2">Size: 2x2 Quantity: {{Quantity}} Price: {{Price}}</i>
-				<i class="brick-2x4">Size: 2x4 Quantity: {{Quantity}} Price: {{Price}}</i>
-			</li>
-			<li id="color-Green">Green
-				<i class="brick-1x8">Size: 1x8 Quantity: {{Quantity}} Price: {{Price}}</i>
-				<i class="brick-2x4">Size: 2x4 Quantity: {{Quantity}} Price: {{Price}}</i>
-				<i class="brick-2x8">Size: 2x8 Quantity: {{Quantity}} Price: {{Price}}</i>
-			</li>
+<!-- 				<i class="brick-2x2">Size: 2x2 Quantity: {{legoStore.brick.'2x2'.quantity}} Price: {{legoStore.brick.'2x2'.price}}</i> -->
+<!-- 				<i class="brick-2x6">Size: 2x6 Quantity: {{Quantity}} Price: {{Price}}</i> -->
+<!-- 				<i class="brick-36x12">Size: 36x12 Quantity: {{Quantity}} Price: {{Price}}</i> -->
+<!-- 			</li> -->
+<!-- 			<li id="color-Blue">Blue -->
+<!-- 				<i class="brick-2x2">Size: 2x2 Quantity: {{Quantity}} Price: {{Price}}</i> -->
+<!-- 				<i class="brick-2x4">Size: 2x4 Quantity: {{Quantity}} Price: {{Price}}</i> -->
+<!-- 			</li> -->
+<!-- 			<li id="color-Green">Green -->
+<!-- 				<i class="brick-1x8">Size: 1x8 Quantity: {{Quantity}} Price: {{Price}}</i> -->
+<!-- 				<i class="brick-2x4">Size: 2x4 Quantity: {{Quantity}} Price: {{Price}}</i> -->
+<!-- 				<i class="brick-2x8">Size: 2x8 Quantity: {{Quantity}} Price: {{Price}}</i> -->
+<!-- 			</li> -->
 		</ul>
 	</body>
 </html>
