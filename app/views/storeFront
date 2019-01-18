@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<title>Welcome to storeFront</title>
 	</head>
-	<body>
+	<body ng-app="directivesQuizApp" ng-controller="legoStore as legoStore" ng-controller="legoStore as legoStore">
 		<h1 id="storeHeading">{{legoStore.name}}</h1>
 		<h2 id="brickColors">{{legoStore.brickColors}}</h2>
 		<ul id="colorList">
