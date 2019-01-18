@@ -4,25 +4,25 @@
 		<meta charset="UTF-8">
 		<title>Welcome to storeFront</title>
 	</head>
-	<body>
-		<h1 id="storeHeading">{{legoStore.name}}</h1>
-		<h2 id="brickColors">{{legoStore.brickColors}}</h2>
+	<body ng-app="directivesQuizApp" ng-controller="legoStore as legoStore" ng-controller="legoStore as legoStore">
+		<h1 id="storeHeading">{{store.name}}</h1>
+		<h2 id="brickColors">{{store.brickColors.length}}</h2>
 		<ul id="colorList">
-			<li id="color-Red">Red
-				<i class="brick-1x1">Size: 1x1 Quantity: {{legoStore.brick.'1x1'.quantity}} Price: {{legoStore.brick.'1x1'.price}}</i>
-				<i class="brick-2x2">Size: 2x2 Quantity: {{legoStore.brick.'2x2'.quantity}} Price: {{legoStore.brick.'2x2'.price}}</i>
-				<i class="brick-2x6">Size: 2x6 Quantity: {{Quantity}} Price: {{Price}}</i>
-				<i class="brick-36x12">Size: 36x12 Quantity: {{Quantity}} Price: {{Price}}</i>
-			</li>
-			<li id="color-Blue">Blue
-				<i class="brick-2x2">Size: 2x2 Quantity: {{Quantity}} Price: {{Price}}</i>
-				<i class="brick-2x4">Size: 2x4 Quantity: {{Quantity}} Price: {{Price}}</i>
-			</li>
-			<li id="color-Green">Green
-				<i class="brick-1x8">Size: 1x8 Quantity: {{Quantity}} Price: {{Price}}</i>
-				<i class="brick-2x4">Size: 2x4 Quantity: {{Quantity}} Price: {{Price}}</i>
-				<i class="brick-2x8">Size: 2x8 Quantity: {{Quantity}} Price: {{Price}}</i>
-			</li>
+			<li id="color-Red">Red</li>
+				<i class="brick-1x1">Size: 1x1 Quantity: {{store.bricks.'1x1'.quantity}} Price: {{store.bricks.'1x1'.price}}</i>
+<!-- 				<i class="brick-2x2">Size: 2x2 Quantity: {{legoStore.brick.'2x2'.quantity}} Price: {{legoStore.brick.'2x2'.price}}</i> -->
+<!-- 				<i class="brick-2x6">Size: 2x6 Quantity: {{Quantity}} Price: {{Price}}</i> -->
+<!-- 				<i class="brick-36x12">Size: 36x12 Quantity: {{Quantity}} Price: {{Price}}</i> -->
+<!-- 			</li> -->
+<!-- 			<li id="color-Blue">Blue -->
+<!-- 				<i class="brick-2x2">Size: 2x2 Quantity: {{Quantity}} Price: {{Price}}</i> -->
+<!-- 				<i class="brick-2x4">Size: 2x4 Quantity: {{Quantity}} Price: {{Price}}</i> -->
+<!-- 			</li> -->
+<!-- 			<li id="color-Green">Green -->
+<!-- 				<i class="brick-1x8">Size: 1x8 Quantity: {{Quantity}} Price: {{Price}}</i> -->
+<!-- 				<i class="brick-2x4">Size: 2x4 Quantity: {{Quantity}} Price: {{Price}}</i> -->
+<!-- 				<i class="brick-2x8">Size: 2x8 Quantity: {{Quantity}} Price: {{Price}}</i> -->
+<!-- 			</li> -->
 		</ul>
 	</body>
 </html>
